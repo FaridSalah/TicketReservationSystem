@@ -11,6 +11,7 @@ namespace TicketReservationSystem.Controllers
         public ActionResult Index()
         {
             return View();
+            // Test of committing a change
         }
 
         public ActionResult About()
