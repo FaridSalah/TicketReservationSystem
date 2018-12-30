@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Ticket Reservation System</h1>
+    <p class="lead">Ticket Reservation System Demo with 3 Entities (Customer, Flilght, and Reservation) </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>
+            @Html.ActionLink("Customers", "Index", "Customers")
+        </h2>
+        <p>Customer Maintenance to add, edit, and delete customers</p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Flights", "Index", "Flights")</h2>
+        <p>Flight Maintenance to add, edit, and delete flights</p>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Reservations", "Index", "Reservations")</h2>
+        <p>Flight Maintenance to add, edit, and delete reservations</p>
+    </div>
+</div>
